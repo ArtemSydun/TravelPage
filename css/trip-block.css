@@ -1,0 +1,47 @@
+.trip {
+  width: 70%;
+  margin: 0 auto;
+}
+.trip-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.trip-image {
+  margin-right: 10px;
+}
+.trip-image-top {
+  margin-bottom: 10px;
+  display: flex;
+}
+.trip-image-top .trip-image:last-child {
+  margin-right: 0px;
+}
+.trip-image-top .trip-image {
+  width: 50%;
+  height: auto;
+  display: flex;
+}
+.trip-image-bottom {
+  display: flex;
+}
+.trip-image-bottom .trip-image:last-child {
+  margin-right: 0px;
+}
+.trip-image-bottom .trip-image {
+  width: 33%;
+  height: auto;
+  display: flex;
+}
+
+.object-cover {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=trip-block.css.map */

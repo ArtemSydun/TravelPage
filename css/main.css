@@ -1,3 +1,32 @@
 body {
   margin: 0px auto;
+}
+
+.content {
+  padding: 0 px 90px;
+}
+
+.block-description {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: black;
+}
+
+.item-link-style {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006DFE;
+}
+.item-link-icon:before {
+  padding-left: 20px;
+  content: "";
+  width: 100%;
+  height: 20px;
 }/*# sourceMappingURL=main.css.map */

@@ -2,6 +2,37 @@ body {
     margin: 0px auto;
     
 }
-.wrapper {
-
+.content {
+    padding:0 px 90px;
+}
+.block {
+    &-description {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color:black;
+    }
+}
+.item {
+        &-link {
+            &-style {
+                text-decoration: none;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #006DFE;
+            }
+            &-icon{
+                &:before {
+                    padding-left:20px;
+                    content:"";
+                    width:100%;
+                    height:20px;
+                }
+            }
+        }
 }

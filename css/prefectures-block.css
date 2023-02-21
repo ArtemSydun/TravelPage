@@ -1,0 +1,36 @@
+.prefectures-block {
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 132px;
+}
+.prefectures-image {
+  width: 50%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.prefectures-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: black;
+  margin-bottom: 86px;
+  margin-top: 20px;
+}
+.prefectures-item {
+  padding-bottom: 78px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.prefectures-item-description {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+}
+.prefectures-link {
+  padding-bottom: 36px;
+}/*# sourceMappingURL=prefectures-block.css.map */

@@ -1,0 +1,48 @@
+.trip {
+    width:70%;
+    margin: 0 auto;
+    &-title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 42px;
+        display:flex;
+        justify-content: space-between;
+        height:100px;
+    }
+    &-image{
+        margin-right:10px;
+        &-top {
+            margin-bottom: 10px;
+            .trip-image:last-child {
+                margin-right:0px;
+            }
+                display:flex;
+                
+                .trip-image {
+                    width:50%;
+                    height: auto;
+                    display:flex;
+                }
+        }
+        &-bottom {
+            .trip-image:last-child {
+                margin-right:0px;
+            }
+            display:flex;
+                .trip-image{
+                    width:33%;
+                    height: auto;
+                    display:flex;
+                }
+        }
+
+    }
+}
+
+.object-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

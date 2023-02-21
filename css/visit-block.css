@@ -1,0 +1,84 @@
+.visit {
+  width: 70%;
+  margin: 0 auto;
+  height: 1300px;
+}
+.visit-block {
+  width: 100%;
+}
+.visit-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 64px;
+}
+.visit-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 567px;
+  margin-right: 58px;
+  margin-bottom: 58px;
+}
+.visit-item-image {
+  height: 377px;
+  position: relative;
+}
+.visit-item-image:hover .visit-item-overlay {
+  opacity: 1;
+}
+.visit-item-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.visit-item-counters {
+  display: flex;
+  justify-content: space-between;
+}
+.visit-items-top {
+  display: flex;
+  justify-content: space-between;
+}
+.visit-items-top .visit-item:last-child {
+  margin-right: 0;
+}
+.visit-items-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.visit-items-bottom .visit-item:last-child {
+  margin-right: 0;
+}
+.visit-button {
+  height: 42px;
+  background: #006DFE;
+  border: none;
+  color: white;
+  width: 118px;
+}
+
+.counter-like {
+  margin: 0px 15px 0px 15px;
+}
+.counter-comment {
+  margin: 0px 15px 0px 15px;
+}/*# sourceMappingURL=visit-block.css.map */

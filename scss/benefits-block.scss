@@ -1,0 +1,47 @@
+.benefits {
+    background: white;
+    position:relative;
+    display:flex;
+    width:70%;
+    height:655px;
+    bottom:250px;     
+    flex-direction: column; 
+    padding:94px 15px 0px 100px;
+    margin:0 auto;
+    &-header {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 42px;
+        color:black;
+        padding-bottom: 140px;
+    }
+    &-content {
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+    }
+    &-item {
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width:25%;
+        height:330px;
+        &-title {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        &-link {
+            color:blue;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+}

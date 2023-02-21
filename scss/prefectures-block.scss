@@ -1,0 +1,40 @@
+.prefectures {
+
+    &-block {
+        margin:0 auto;
+        width: 70%;
+        margin-top: 132px;
+    }
+    &-image {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &-title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        color:black;
+        margin-bottom: 86px;
+        margin-top:20px;
+    }
+    &-description {
+    }
+    &-item {
+        padding-bottom:78px;
+        display:flex;     
+        justify-content: space-between;
+        height:100%;
+        &-description {
+            justify-content: space-between;
+            display:flex;
+            flex-direction: column;
+            width: 620px;
+        }
+    }
+    &-link {
+        padding-bottom:36px;
+    }
+}

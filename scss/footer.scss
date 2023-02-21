@@ -1,0 +1,38 @@
+.footer {
+    height: 370px;
+    width: 100%;
+    background: #0E1D28;
+    font-family: 'Lato';
+    font-style: normal;
+    line-height: 24px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    &-block {
+        display:flex;
+        justify-content: space-around;
+        width: 80%;
+    }
+    &-menu {
+        color:#f1f1f1;
+        display:flex;
+        justify-content: space-between;
+        width: 50%;
+        &-item {
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height:133px;
+        }
+        &-link {
+            font-weight: 400;
+            font-size: 16px;
+            text-decoration: none;
+            color:white;
+        }
+    }
+    &-title {
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
