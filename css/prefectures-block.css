@@ -1,11 +1,14 @@
+.prefectures {
+  height: 100vh;
+}
 .prefectures-block {
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
   margin-top: 132px;
+  margin-bottom: 132px;
 }
 .prefectures-image {
   width: 50%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -16,8 +19,6 @@
   font-size: 30px;
   line-height: 40px;
   color: black;
-  margin-bottom: 86px;
-  margin-top: 20px;
 }
 .prefectures-item {
   padding-bottom: 78px;
@@ -33,4 +34,37 @@
 }
 .prefectures-link {
   padding-bottom: 36px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .prefectures-item {
+    display: flex;
+  }
+  .prefectures-image {
+    padding: 0 50px 0 0;
+  }
+  .prefectures-image:last-child {
+    padding: 0 0 0 50px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .prefectures-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .prefectures-item-description {
+    width: auto;
+    margin: 50px 0;
+  }
+  .prefectures-image {
+    width: 100%;
+    padding: 0;
+  }
+  .prefectures-image:last-child {
+    padding: 0;
+  }
+  .block-description {
+    margin: 50px 0;
+  }
 }/*# sourceMappingURL=prefectures-block.css.map */

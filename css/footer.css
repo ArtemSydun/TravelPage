@@ -35,4 +35,32 @@
 .footer-title {
   font-weight: 500;
   font-size: 18px;
+}
+.footer-logo {
+  height: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+  .footer-menu {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .footer-block {
+    display: block;
+  }
+  .footer-menu {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-block {
+    display: block;
+  }
+  .footer-menu {
+    width: 100%;
+  }
+  .footer-menu-link {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=footer.css.map */
