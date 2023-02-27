@@ -2,13 +2,18 @@ body {
   margin: 0px auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   z-index: 3;
 }
 
+.default.menu {
+  overflow: hidden;
+}
 .default.menu .burger-page {
-  display: flex;
-  z-index: 999;
   transform: translateX(0);
 }
 

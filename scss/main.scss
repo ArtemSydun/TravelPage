@@ -1,21 +1,20 @@
 body {
     margin: 0px auto;
-    
+
+}
+html {
+    scroll-behavior: smooth;
 }
 .wrapper {
     z-index:3;
 }
 .default {
-    // .burger-page {
-    //     display:none;
-    // }
     
     &.menu {
-        // overflow: hidden;
+        overflow: hidden;
         .burger-page {
-            display:flex;
-            z-index:999;
-            transform: translateX(0);
+            
+            transform: translateX(0); 
         }
     }
 }
@@ -62,3 +61,4 @@ body {
     height: 100%;
     object-fit: cover;
 }
+

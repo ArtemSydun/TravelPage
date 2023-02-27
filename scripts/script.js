@@ -8,3 +8,5 @@ window.addEventListener('hashchange', () => {
         document.body.classList.remove('menu')
     }
 });
+
+

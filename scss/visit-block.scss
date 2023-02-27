@@ -24,9 +24,13 @@
         &-image {
             height: 377px;
             position:relative;
+            transition:transform .3s;
         }
             &-image:hover &-overlay{
                  opacity: 1;
+        }
+        &-image:hover {
+            transform:scale(1.1);
         }
         &-overlay {
             position:absolute;
@@ -77,7 +81,14 @@
         border:none;
         color:white;
         width:118px;
+        transition: all .4s;
     }
+
+    &-button:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+
 
 
 }
@@ -98,6 +109,7 @@
         &-item {
             margin-right:0;
             width:48%;
+            
         }
         &-items {
             &-top {

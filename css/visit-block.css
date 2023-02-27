@@ -26,9 +26,13 @@
 .visit-item-image {
   height: 377px;
   position: relative;
+  transition: transform 0.3s;
 }
 .visit-item-image:hover .visit-item-overlay {
   opacity: 1;
+}
+.visit-item-image:hover {
+  transform: scale(1.1);
 }
 .visit-item-overlay {
   position: absolute;
@@ -75,6 +79,11 @@
   border: none;
   color: white;
   width: 118px;
+  transition: all 0.4s;
+}
+.visit-button:hover {
+  background-color: black;
+  cursor: pointer;
 }
 
 .counter-like {

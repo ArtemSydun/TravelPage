@@ -29,6 +29,13 @@
 }
 .header {
     padding: 56px 350px 0px 250px;
+    &-logo {
+        transition: transform .3s;
+    }
+    &-logo:hover {
+        
+        transform:scale(1.5)
+    }
     &-section {
         min-width:100%;
         height:100vh;
@@ -49,6 +56,10 @@
         &-link {
             color: white;
             text-decoration: none;
+            transition: transform .3s;
+        }
+        &-link:hover {
+            transform:scale(1.5);
         }
     }
     &-description {
@@ -81,9 +92,19 @@
     border-bottom: 3px solid #BFC0C5;
     display:flex;
     align-items: center;
+
+    &-field {
+
+        width: 100%;
+        background:none;
+        border: none;
+        font-size:20px;
+        color:white;
+        outline:none;
+    }
     &:before {
         content:"";
-        width:20px;
+        width:22px;
         height:20px;
         display:inline-block;
         border-radius:50%;
@@ -116,7 +137,7 @@
 }
 
 .button {
-
+    transition: transform .3s;
     &-search {
         border:none;
         width: 171px;
@@ -128,9 +149,14 @@
         font-size: 24px;
         line-height: 29px;
         color: #FFFFFF;
+        transition: all .4s;
         &-low {
             display:none;
         }
+    }
+    &-search:hover {
+        background-color: black;
+        cursor: pointer;
     }
 }
 
@@ -171,7 +197,7 @@
     }
     .input {
         font-size:20px;
-        width:280px;
+        width:300px;
         height: 40px;
         &::before {
             width: 15px;
